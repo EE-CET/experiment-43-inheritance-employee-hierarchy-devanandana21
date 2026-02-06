@@ -25,7 +25,6 @@ public class EmployeeInheritance {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Officer details
         Officer officer = new Officer();
         officer.name = sc.nextLine();
         officer.age = sc.nextInt();
@@ -36,7 +35,6 @@ public class EmployeeInheritance {
         sc.nextLine();
         officer.specialization = sc.nextLine();
 
-        // Manager details
         Manager manager = new Manager();
         manager.name = sc.nextLine();
         manager.age = sc.nextInt();
@@ -47,7 +45,6 @@ public class EmployeeInheritance {
         sc.nextLine();
         manager.department = sc.nextLine();
 
-        // Output (EXACT format)
         System.out.println("Officer:");
         System.out.println(officer.name);
         System.out.println(officer.age);
